@@ -12,7 +12,7 @@
 ### Master Node/Control Plane
 
 1. The **master node/control plane** consists of **5 components** that is **(API server, Scheduler, etcd, Controller manager, Cloud controller manager)**
-2. The **API server** is the heart of Kubernetes, it exposes the Kubernetes API server and every request is received by this API server
+2. The **API server** is the heart of Kubernetes, it exposes the Kubernetes API server and every request is received by this API server. The API server is the frontend for the Kubernetes control plane
 3. **Scheduler** selects the node for the pod and schedules it on basis of  different factors
 4. **etcd** is a key value store that stores the cluster data
 5. **Controller manager** manages the Kubernetes inbuilt controllers like replica set
