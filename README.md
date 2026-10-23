@@ -1,4 +1,4 @@
-###### KUBERNETES ARCHITECTURE
+### KUBERNETES ARCHITECTURE
 
 ### Worker Node/Data Plane
 
